@@ -1,4 +1,30 @@
-[tool.pytest.ini_options]
-pythonpath = [
-    "src"
+[project]
+name = "cineplexwork"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "certifi==2024.8.30",
+    "charset-normalizer==3.3.2",
+    "colorama==0.4.6",
+    "icalendar==5.0.13",
+    "idna==3.10",
+    "iniconfig==2.0.0",
+    "packaging==24.1",
+    "pluggy==1.5.0",
+    "pyotp==2.9.0",
+    "pytest==8.3.3",
+    "python-dateutil==2.9.0.post0",
+    "python-dotenv==1.0.1",
+    "pytz==2024.2",
+    "requests==2.32.3",
+    "six==1.16.0",
+    "soupsieve==2.6",
+    "urllib3==2.2.3",
 ]
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12"]
+build-backend = "uv_build"
